@@ -1,0 +1,54 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+media_folder: "public/images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "Java" # Used in routes, e.g., /admin/collections/blog
+    label: "Java" # Used in the UI
+    folder: "content/java" # The path to the folder where the documents are stored
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Video Embed Link", name: "videoEmbedLink", widget: "string" }
+      - { label: "Notes", name: "notes", widget: "string" }
+  - name: "C++" # Used in routes, e.g., /admin/collections/blog
+    label: "C++" # Used in the UI
+    folder: "content/cpp" # The path to the folder where the documents are stored
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Video Embed Link", name: "videoEmbedLink", widget: "string" }
+      - { label: "Notes", name: "notes", widget: "string" }
+  - name: "Python" # Used in routes, e.g., /admin/collections/blog
+    label: "Python" # Used in the UI
+    folder: "content/python" # The path to the folder where the documents are stored
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Video Embed Link", name: "videoEmbedLink", widget: "string" }
+      - { label: "Notes", name: "notes", widget: "string" }
+  - name: "Web Dev" # Used in routes, e.g., /admin/collections/blog
+    label: "Web Dev" # Used in the UI
+    folder: "content/webDev" # The path to the folder where the documents are stored
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Video Embed Link", name: "videoEmbedLink", widget: "string" }
+      - { label: "Notes", name: "notes", widget: "string" }
+  - name: "Matlab" # Used in routes, e.g., /admin/collections/blog
+    label: "Matlab" # Used in the UI
+    folder: "content/matlab" # The path to the folder where the documents are stored
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Video Embed Link", name: "videoEmbedLink", widget: "string" }
+      - { label: "Notes", name: "notes", widget: "string" }
