@@ -38,7 +38,7 @@ export default () => {
               <NavDropdown.Item>Learn C++ (archived)</NavDropdown.Item>
             </Link>
           </NavDropdown>
-          <Nav.Link href="https://www.gofundme.com/f/code-the-universe">
+          <Nav.Link href="https://gf.me/u/ysiq79">
             GoFundMe
           </Nav.Link>
         </Nav>
