@@ -32,7 +32,7 @@ export default function () {
             <TeamCard
               name={"Puneet Bagga"}
               imageSrc={"assets/img/puneet.png"}
-              title={"vice president"}
+              title={"Vice President"}
               bio={`
                   Puneet Bagga is a 16 year old High School Junior that leads weekly C++
                   lectures and handles behind the scenes work, he hopes that all
