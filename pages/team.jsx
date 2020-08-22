@@ -21,24 +21,12 @@ export default function () {
           </div>
           <div className="row">
             <TeamCard
-              name={"Rishi Pathak"}
-              title={"Founder"}
-              imageSrc={"assets/img/IMG_5405.jpg"}
-              bio={`                  As a Computer Science and Physics major at Georgia Tech, Rishi
-                  usually finds himself surrounded by physics texts during day
-            and the computer terminal by night. He dreams of eventually
-                  combining the two disciplines in order to discover how to
-                  develop faster quantum computers. In the small bits and bytes
-                  of free-time he finds, he enjoys playing basketball, chess,
-                  and swimming.`}
-            />
-            <TeamCard
-              name={"Jeffery Annaraj"}
+              name={"Jeffrey Annaraj"}
               imageSrc={"assets/img/photo_2020-05-28_01-16-07.jpg"}
               title={"Vice President"}
               bio={`
-                            Jeffrey Annaraj is 15-year old programmer, that specilizes in
-                web design and development and cloud computing.
+                            Jeffrey Annaraj is 16-year old programmer, that specializes in
+                web design, development and cloud computing.
             `}
             />
             <TeamCard
@@ -46,7 +34,7 @@ export default function () {
               imageSrc={"assets/img/puneet.png"}
               title={"vice president"}
               bio={`
-                  Puneet Bagga is a 16 year old High School Junior that&nbsp;leads weekly C++
+                  Puneet Bagga is a 16 year old High School Junior that leads weekly C++
                   lectures and handles behind the scenes work, he hopes that all
                   students learn as much as they can from Code the Universe and
                   spread their newfound passion to others.
@@ -58,22 +46,12 @@ export default function () {
               imageSrc={"assets/img/naveen.png"}
               title={"Vice President"}
               bio={`
-                  As a 15 year old high school freshman, Naveen Kannan&nbsp;
+                  As a 15 year old high school freshman, Naveen Kannan;
                   programming lead him to join Code The Universe as VP, and lead
                   a course as an instructor. By teaching lectures, Naveen
                   aspires to share his passion with his students. As a VP,
                   Naveen hosts the C++ lectures as well as assist with behind
                   the scenes protocol.
-            `}
-            />
-            <TeamCard
-              name={"AAWebDev"}
-              imageSrc={"assets/img/AAWebDev.png"}
-              title={"Lecturer & Website Manager"}
-              bio={`
-                  a freelance web developer running many projects. he teaches
-                  people how to code in his free time he is nicknamed "SPEED"
-                  for his incredible productivity
             `}
             />
             <TeamCard
@@ -83,7 +61,7 @@ export default function () {
               bio={`
                   A programmer, and graphic designer. Specializing
                   in Video editing, photography, and marketing. Is currently the
-                  Content Director at Code the Universe
+                  Content Director at Code the Universe.
             `}
             />
             <TeamCard
