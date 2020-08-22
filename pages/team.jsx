@@ -74,8 +74,8 @@ export default function () {
             />
             <TeamCard
               name={"Gentian Gashi"}
-              imageSrc={"assets/img/unbound.jpg"}
-              title={"Marketing VP"}
+              imageSrc={"assets/img/unbound.png"}
+              title={"Python Teacher Assistant"}
               bio={`
                   Gentian Gashi is a 21 year old computer science student. With 5 years programming experience, specializing in C# and .NET Core, assisting students and teachers alike.
             `}
