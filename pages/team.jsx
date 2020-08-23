@@ -122,7 +122,24 @@ export default function () {
               imageSrc={"/assets/img/unknown.png"}
               role={"Lecturer"}
               bio={`
-           Lance Soo is a Mechanical Engineering major at Kennesaw State University. However, he resolved to never lose sight of his Computer Science background. He is excited to teach MatLab, and hopes they will get something out of it as well! In his words, engineering and computer science don't have to be mutually exclusive. In his free time, he composes music and does art.
+           Lance Soo is a Mechanical Engineering major at Kennesaw State University.
+          However, he resolved to never lose sight of his Computer Science background.
+           He is excited to teach MatLab, and hopes they will get something out of it as well!
+            In his words, engineering and computer science don't have to be mutually exclusive.
+             In his free time, he composes music and does art.
+            `}
+            />
+            <TeamCard
+              name={"Deondre Do"}
+              imageSrc={"/assets/img/unknown.png"}
+              role={"Marketing and Social Media Manager"}
+              bio={`
+           Deondre is a 22-year old from California with a passion for both medicine and programming.
+           Currently taking a gap year after graduating with a B.S. in Biology from UCLA,
+            his dream is to not only work in the field as an M.D. P.H.D., but to improve it over time by integrating newer and modern technologies into the workspace.
+            Possessing a love for spreading knowledge as well as mentoring/teaching,
+            he joined the CtU team in order to help us educate those with a passion for learning even if they cannot afford a formal education.
+            His goal is to be able to connect individuals across all fields whether it is medicine, engineering, business, etc. to form a holistic space that takes advantage of the benefits of a multidisciplinary perspective.
             `}
             />
           </div>
