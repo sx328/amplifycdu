@@ -23,10 +23,10 @@ export default function () {
             <TeamCard
               name={"Jeffrey Annaraj"}
               imageSrc={"assets/img/photo_2020-05-28_01-16-07.jpg"}
-              title={"Vice President"}
+              title={"Chief of Technology"}
               bio={`
-                            Jeffrey Annaraj is 16-year old programmer, that specializes in
-                web design, development and cloud computing.
+                Jeffrey Annaraj is 16-year old programmer, that specializes in
+                web design, development and cloud computing architecture.
             `}
             />
             <TeamCard
@@ -44,7 +44,7 @@ export default function () {
             <TeamCard
               name={"Naveen Kannan"}
               imageSrc={"assets/img/naveen.png"}
-              title={"Vice President"}
+              title={"Chief Executive Officer"}
               bio={`
                   As a 15 year old high school freshman, Naveen Kannan;
                   programming lead him to join Code The Universe as VP, and lead
@@ -57,7 +57,7 @@ export default function () {
             <TeamCard
               name={`Siddharth Balaganesh`}
               imageSrc={"assets/img/sid.jpg"}
-              title={"Content Director"}
+              title={"Chief Content Executive"}
               bio={`
                   A programmer, and graphic designer. Specializing
                   in Video editing, photography, and marketing. Is currently the
@@ -95,7 +95,7 @@ export default function () {
             <TeamCard
               name={"Emil Meissner"}
               imageSrc={"assets/img/unknown.png"}
-              title={"C++ Lecturer Lead"}
+              title={"Chief Administrative Officer"}
               bio={`
                   Highschool student from the Czech Republic, who has been
                   programming for over 3 years now, and has taken an interest in
