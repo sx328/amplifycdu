@@ -20,6 +20,20 @@ export default function () {
             </p>
           </div>
           <div className="row">
+          <TeamCard
+            name={"Naveen Kannan"}
+            imageSrc={"assets/img/naveen.png"}
+            title={"Chief Executive Officer"}
+            bio={`
+                As a 15 year old high school freshman, Naveen Kannan;
+                programming lead him to join Code The Universe as VP, and lead
+                a course as an instructor. By teaching lectures, Naveen
+                aspires to share his passion with his students. As a VP,
+                Naveen hosts the C++ lectures as well as assist with behind
+                the scenes protocol.
+          `}
+          />
+
             <TeamCard
               name={"Jeffrey Annaraj"}
               imageSrc={"assets/img/photo_2020-05-28_01-16-07.jpg"}
@@ -32,26 +46,12 @@ export default function () {
             <TeamCard
               name={"Puneet Bagga"}
               imageSrc={"assets/img/puneet.png"}
-              title={"Vice President"}
+              title={"Chief Operating Officer"}
               bio={`
                   Puneet Bagga is a 16 year old High School Junior that leads weekly C++
                   lectures and handles behind the scenes work, he hopes that all
                   students learn as much as they can from Code the Universe and
                   spread their newfound passion to others.
-            `}
-            />
-
-            <TeamCard
-              name={"Naveen Kannan"}
-              imageSrc={"assets/img/naveen.png"}
-              title={"Chief Executive Officer"}
-              bio={`
-                  As a 15 year old high school freshman, Naveen Kannan;
-                  programming lead him to join Code The Universe as VP, and lead
-                  a course as an instructor. By teaching lectures, Naveen
-                  aspires to share his passion with his students. As a VP,
-                  Naveen hosts the C++ lectures as well as assist with behind
-                  the scenes protocol.
             `}
             />
             <TeamCard
@@ -81,29 +81,6 @@ export default function () {
             `}
             />
             <TeamCard
-              name={"Kevin Xu"}
-              imageSrc={"assets/img/kevin_xu.jpg"}
-              title={"Marketing VP"}
-              bio={`
-                  Kevin Xu is a 15 year old student that joined as the VP
-                  of Marketing. He hopes to inspire others and share the joy of
-                  coding with as many people as possible through his role.
-                  Outside of his role at Code The Universe, he is a decorated
-                  chess player that spends time enjoying the game.
-            `}
-            />
-            <TeamCard
-              name={"Emil Meissner"}
-              imageSrc={"assets/img/unknown.png"}
-              title={"Chief Administrative Officer"}
-              bio={`
-                  Highschool student from the Czech Republic, who has been
-                  programming for over 3 years now, and has taken an interest in
-                  C++, Maths, Physics, aswell as computer science.
-            `}
-            />
-
-            <TeamCard
               name={"Bayan Paruanda"}
               imageSrc={"assets/img/unknown.png"}
               title={"Teacher Assistant"}
@@ -130,16 +107,17 @@ export default function () {
             `}
             />
             <TeamCard
-              name={"Deondre Do"}
+              name={"Yashaswi Bhardawaj"}
+              imageSrc={"/assets/img/claw.jpeg"}
+              role={"Lecturer"}
+              bio={`Yashaswi Bhardawaj is passionate about computer science, PC building and literature. His love of literature, history and gaming has helped him see things from the ground up not just for what it is but for the future of what it can be. He has been working with C++ for over a year and now specializes in data structures and algorithms with the language.
+            `}
+            />
+            <TeamCard
+              name={"Yashaswi Bhardawaj"}
               imageSrc={"/assets/img/unknown.png"}
-              role={"Marketing and Social Media Manager"}
-              bio={`
-           Deondre is a 22-year old from California with a passion for both medicine and programming.
-           Currently taking a gap year after graduating with a B.S. in Biology from UCLA,
-            his dream is to not only work in the field as an M.D. P.H.D., but to improve it over time by integrating newer and modern technologies into the workspace.
-            Possessing a love for spreading knowledge as well as mentoring/teaching,
-            he joined the CtU team in order to help us educate those with a passion for learning even if they cannot afford a formal education.
-            His goal is to be able to connect individuals across all fields whether it is medicine, engineering, business, etc. to form a holistic space that takes advantage of the benefits of a multidisciplinary perspective.
+              role={"Lecturer"}
+              bio={`Yashaswi Bhardawaj is passionate about computer science, PC building and literature. His love of literature, history and gaming has helped him see things from the ground up not just for what it is but for the future of what it can be. He has been working with C++ for over a year and now specializes in data structures and algorithms with the language.
             `}
             />
           </div>
