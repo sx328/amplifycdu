@@ -4,10 +4,9 @@
   "author": "Wenzhi Li",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next build && next export"
+    "dev": "yarn install",
+    "build": "yarn export",
+    "start": "yarn start"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
